@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sizing and units</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            font-size: 12px;
+        }
+
+        .box {
+            box-sizing: border-box;
+            border: 2px solid black;
+            width: 80vw;
+            height: 10vh;
+            margin: auto;
+            background-color: aqua;
+        }
+
+        .container {
+            box-sizing: border-box;
+            border: 2px solid black;
+            /* width: 2048px; */
+            width: 80vw;
+            /* height: 80vh; */
+            min-height: 80vh;
+            margin: 23px auto;
+            font-size: 18px;
+            background-color: aquamarine;
+
+        }
+
+        .container>div {
+            font-size: 2em;
+            border: 2px solid red;
+            width: 50%;
+        }
+
+        .container>div>div {
+            border: 2px solid black;
+            width: 50%;
+        }
+
+        .mycont {
+            border: 2px solid black;
+            box-sizing: border-box;
+            margin: 23px auto;
+            color: rgb(0, 0, 0);
+            font-size: 22px;
+            ;
+            width: 80vw;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        This is a box
+
+    </div>
+    <div class="container">
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur id quibusdam nam fugit corrupti
+            laudantium
+            perferendis est, quia nobis enim, aliquam sapiente facilis reiciendis. Cupiditate nesciunt fugit corrupti
+            libero, iste obcaecati sequi magni optio enim illum, quibusdam ratione voluptas accusamus possimus suscipit
+            blanditiis accusantium consectetur officia perspiciatis reprehenderit asperiores eligendi eos itaque
+            nostrum!
+            At, non praesentium.
+        </div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio nobis dignissimos tempore harum alias fugiat
+        labore? Tenetur ad ratione repudiandae aliquam, nesciunt quia qui iusto!
+
+    </div>
+    <div class="mycont">
+        I am another container
+
+    </div>
+
+
+    </body>
+
+</body>
+
+</html>
